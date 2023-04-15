@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 2px black;
+}
+
+.form label {
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: 1000;
+  margin-bottom: 3px;
+}
+.form input {
+  border: solid 2px black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+}
+.form button {
+  border: solid 2px black;
+  border-radius: 10px;
+  background-color: white;
+}
