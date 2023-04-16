@@ -8,11 +8,13 @@ import Layout from './components/layout/Layout';
 import './style.css';
 
 export default function App() {
-  return
-    <Routes>
+  return(
+
       <Layout>
-      <Route path="/" elemen={<Login />} />
-      <Route path="/home" elemen={<Articulos />} />
-      </Layout>
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/home" element={<Articulos />} />
     </Routes>
+      </Layout>
+  );
 }
